@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 1500px;
+    background:#fff;
+}
+.header1{
+    background-color:#fff;
+    height: 40px;
+    font-family: TondoBold, sans-serif;
+  
+    border-bottom: .5px solid lightgray ;
+    position: relative;
+
+}
+.header-left{
+    height: 40px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    font-weight: 750;
+    float: left;
+}
+.header-left ul{
+    padding-left: 50px;
+}
+.header-left ul li{
+    list-style: square;
+    display: inline-block;
+    color: gray;
+    padding-left: 40px;
+    padding-top: 12px;
+    float: left;
+}
+.header-left ul li:hover{
+    color: rgb(252, 3, 3);
+}
+.header-right select {
+    float: left;
+    position: absolute;
+    right: 100px;
+    bottom: 12px;
+    color: red;
+    border: 0;
+}
+.headersub{
+    width: 100%;
+    height: 80px;
+    border-bottom: .5px solid lightgray;
+    background: #fff;
+    font-family: Tondo, sans-serif;
+    font-size: 12px;
+}
+.headersub-left{
+padding-left: 60px;
+padding-top: 12px;
+
+}
+.headersub-right{
+    height: 20px;
+    
+position: absolute;
+left: 40%;
+top: 70px;
+
+}
+.headersub-right table td{
+    font-family: Tondo, sans-serif;
+    font-size: 10px;
+    min-width: 80px;
+    
+}
+.headersub-right table td select{
+    color: rgb(54, 52, 52);
+border: 0;
+}
+.headersub-right table td select:hover{
+    color: red;
+    font-weight: bold;
+}
+.recharge{
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 300px;
+    font-family: system-ui;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+}
+.recharge h1{
+    height: fit-content;
+    width: fit-content;
+    background: white ;
+    margin: auto;
+    padding-top: 35px;
+}
+.connections{
+    
+    width: fit-content;
+    background: #fff;
+    margin: auto ;
+    padding-top: 30px;
+    
+}
+.connections button{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-inline: 10px;
+
+    cursor: pointer;
+    border-radius: 20px;
+    border: 0;
+    background: lightgray;
+    color: black;
+}
+.connections button:hover{
+    background: black;
+    color: white;
+    border: 1px solid gray;
+    transition: .6;
+}
+.recharge input{
+    margin-top: 20px;
+    margin-left: 400px ;
+}
+.recharge-button{
+    width: 400px;
+    height: 40px;
+    border-radius: 7px;
+    background: black;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-left: 400px;
+    margin-top: 35px;
+    
+}
+.recharge-button:hover{
+    background: rgb(63, 61, 61);
+    border: 1px solid black;
+}
+.getapp{
+    background: rgb(239 35 35);
+    width: 100%;
+    height: 50px;
+    padding-left: 450px;
+}
+.getapp img{
+    margin-top: 5px;
+    margin-right: 10px;
+    width: fit-content;
+    background: black;
+    float: left;
+}
+.getapp p{
+    width: fit-content;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    font-family: TondoBold, sans-serif;
+    color: #fff;
+    
+    padding-top: 15px;
+    float: left;
+    
+}
+.getapp button{
+    width: 60px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 10px;  
+
+    background: transparent;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bolder;
+    float: left;
+}
+
+.new-connection{
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 300px;
+    font-family: system-ui;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+}
+.new-connection h1{
+    height: fit-content;
+    width: fit-content;
+    background: white ;
+    margin: auto;
+    padding-top: 35px;
+}
+.new-connection-available{
+    
+    width: fit-content;
+    background: #fff;
+    margin: auto ;
+    padding-top: 30px;
+    
+}
+.new-connection-available button{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+
+    cursor: pointer;
+    border-radius: 20px;
+    border: 0;
+    background: lightgray;
+    color: black;
+}
+.connections button:hover{
+    background: black;
+    color: white;
+    border: 1px solid gray;
+    transition: .6;
+}
